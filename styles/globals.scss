@@ -2,18 +2,6 @@
 /* CUSTOM RESETS */
 /*****************/
 
-/**********/
-/* COLORS */
-/**********/
-$primaryColor: #051345;
-$primaryLightColor: #383871;
-$primaryDarkColor: #00001f;
-$secondaryColor: #f44336;
-$secondaryLightColor: #ff7961;
-$secondaryDarkColor: #ba000d;
-$primaryTextColor: #ffffff;
-$secondaryTextColor: #000000;
-
 /**************/
 /* TYPOGRAPHY */
 /**************/
@@ -24,4 +12,22 @@ html {
 
 body {
   font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/*********/
+/* LINKS */
+/*********/
+a {
+  color: $secondaryColor;
+}
+
+a:hover,
+a:focus,
+a:focus-visible {
+  color: $secondaryColor;
+  text-decoration: underline;
 }

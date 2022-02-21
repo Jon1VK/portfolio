@@ -1,0 +1,50 @@
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url('../../public/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $primaryTextColor;
+
+  & > div {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.title {
+  h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}
+
+.logos {
+  display: flex;
+  margin-top: 1rem;
+
+  div {
+    margin-right: 0.5rem;
+  }
+
+  svg {
+    fill: $primaryTextColorVariant;
+  }
+
+  a:hover,
+  a:focus,
+  a:focus-visible {
+    svg {
+      fill: $secondaryColor;
+    }
+  }
+}
