@@ -1,22 +1,22 @@
-import Image from 'next/image';
-import profilePicture from '../../public/profile.jpg';
-import styles from './styles.module.scss';
-
 export default function About() {
   return (
-    <section className={styles.about}>
-      <div className={styles.profile}>
-        <Image src={profilePicture} width={399} height={600} />
-      </div>
-      <div className={styles.text}>
-        <h2>About me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere animi
-          eligendi repellat culpa quisquam eius error quibusdam doloremque
-          repudiandae. Repellendus minus fuga architecto dolorem vero aperiam ab
-          eum optio assumenda.
-        </p>
-      </div>
-    </section>
+    <>
+      <h2>About me</h2>
+      <p>I am 28 years old Software Engineer Trainee from Vincit.</p>
+      <p>
+        I have Master of Science degree in mathematics, so I am highly skilled
+        in logical reasoning and learning new stuff by making connections
+        between topics and concepts.
+      </p>
+      <p>
+        I have acquired my software development knowledge from the computer
+        science studies in the University of Turku and by studying independently
+        in my spare time.
+      </p>
+      <p>
+        In my free time I train sprinting and I have achieved 7 Finnish
+        Championship medals in 400m hurdles.
+      </p>
+    </>
   );
 }

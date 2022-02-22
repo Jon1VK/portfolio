@@ -4,18 +4,6 @@
   color: $primaryTextColorVariant;
   font-weight: 700;
 
-  &::before {
-    position: absolute;
-    display: block;
-    z-index: -1;
-    content: '';
-    min-height: 112vw;
-    width: 100%;
-    background-image: url('../../public/background.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   ul {
     max-width: 1200px;
     padding-top: 2rem;

@@ -1,0 +1,30 @@
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
+
+    .picture {
+      clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 95%);
+    }
+  }
+
+  .picture {
+    position: relative;
+    clip-path: polygon(0 0, 100% 5%, 100% 85%, 0% 95%);
+  }
+}
+
+.text {
+  flex: 0 1 600px;
+  line-height: 1.5;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 1rem 2rem;
+
+  p {
+    margin: 1rem 0;
+  }
+}
