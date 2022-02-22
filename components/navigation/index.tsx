@@ -5,12 +5,12 @@ export default function Navigation() {
   return (
     <nav className={styles.navigation}>
       <ul>
-        <li>
+        <li className={styles.active}>
           <Link href="/">
             <a>Home</a>
           </Link>
         </li>
-        <li className={styles.active}>
+        <li>
           <Link href="/">
             <a>Portfolio</a>
           </Link>

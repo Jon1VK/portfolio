@@ -1,0 +1,19 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile {
+  position: relative;
+  clip-path: polygon(0 0, 100% 5%, 100% 85%, 0% 95%);
+}
+
+.text {
+  flex: 0 1 600px;
+
+  p {
+    margin: 1.5rem 0;
+  }
+}
